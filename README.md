@@ -20,7 +20,6 @@ This project was created to demonstrate the difference between the vulnerability
 ## Demonstration Steps
 
 ### 1. Clone the Repository
-
 Clone the repository to your local environment:
 
 ```bash
@@ -55,8 +54,8 @@ Use Trivy to scan the image and detect CVE-2020-10683:
 
 ```bash
 trivy image quay.io/<your-quay-username>/my-tomcat-app:latest
-Trivy should detect CVE-2020-10683, highlighting the difference compared to Quay.io.
 ```
+Trivy should detect CVE-2020-10683, highlighting the difference compared to Quay.io.
 
 ### Conclusion
 This project demonstrates that Trivy can detect CVE-2020-10683 in the dom4j library version 1.6.1, while Quay.io seems does not.
